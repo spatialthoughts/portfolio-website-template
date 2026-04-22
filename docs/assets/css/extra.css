@@ -1,0 +1,44 @@
+/* Profile photo on the Home page */
+.profile-photo {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
+
+/* Hero section on the Home page */
+.hero {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+}
+
+/* Project cards on the Projects gallery page */
+.project-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+/* Leaflet map container used in project pages */
+.leaflet-map-container {
+  height: 420px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
