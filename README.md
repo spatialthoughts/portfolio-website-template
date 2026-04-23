@@ -11,8 +11,8 @@ sensing specialists, spatial data scientists, and GeoAI practitioners. Built wit
 ## What's Included
 
 - **Home** — Profile photo, bio, social links, highlights, and CV download button
-- **Projects** — Image card gallery with individual project pages; one example project with an
-  embedded interactive Leaflet map
+- **Projects** — Image card gallery with individual project pages; example projects as both
+  a Markdown page and a Jupyter notebook
 - **Skills** — Collapsible skill categories (GIS, programming, remote sensing, ML/GeoAI, etc.)
 - **Experience** — Work history, education, certifications, publications
 - **Contact** — Links and CV download
@@ -100,46 +100,9 @@ Content goes here.
 
 ### Adding Jupyter Notebook Projects
 
-Allows you to add `.ipynb` notebook files as project pages directly — no manual conversion.
-Cell outputs (maps, charts, tables) render inline.
-
-**Step 1 — Uncomment `mkdocs-jupyter` in the dependency files**
-
-In `requirements.txt`:
-```
-mkdocs-material>=9.5
-mkdocs-jupyter    # <-- uncomment this line
-```
-
-In `environment.yml`:
-```yaml
-    - pip:
-      - mkdocs-material>=9.5
-      - mkdocs-jupyter    # <-- uncomment this line
-```
-
-**Step 2 — Install the package**
-
-```bash
-# If using pip:
-pip install mkdocs-jupyter
-
-# If using conda:
-conda env update -f environment.yml
-```
-
-**Step 3 — Enable the plugin in `mkdocs.yml`**
-
-```yaml
-plugins:
-  - search
-  - mkdocs-jupyter    # <-- uncomment this line
-```
-
-**Step 4 — Add your notebook**
-
-Drop your `.ipynb` file into `docs/projects/` and add it to the nav in `mkdocs.yml`
-exactly like any other page:
+Jupyter notebook support is included by default via `mkdocs-jupyter`. Drop your `.ipynb`
+file into `docs/projects/` and add it to the nav in `mkdocs.yml` exactly like any other
+page:
 
 ```yaml
 nav:
@@ -147,6 +110,8 @@ nav:
     - "All Projects": projects/index.md
     - "My Notebook Analysis": projects/my-analysis.ipynb
 ```
+
+Cell outputs (maps, charts, tables) render inline on the published site.
 
 ---
 

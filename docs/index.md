@@ -4,14 +4,14 @@ CHECKLIST FOR THIS PAGE:
 - [ ] Replace [YOUR JOB TITLE] with your current or target role
 - [ ] Replace [YOUR TAGLINE] with a short phrase describing your focus
 - [ ] Rewrite the About Me paragraph with your own words
-- [ ] Replace assets/images/profile.svg with your actual photo (rename it profile.svg or change the filename below)
+- [ ] Replace assets/images/profile.png with your actual photo (keep the filename profile.png or update the filename below)
 - [ ] Update GitHub, LinkedIn, and email links
 - [ ] Update the three Highlights numbers (projects, years, skills)
 - [ ] Add your CV PDF to docs/assets/ and update the filename in the Download CV button
 -->
 
 <div class="hero">
-  <img src="assets/images/profile.svg" alt="[YOUR NAME]" class="profile-photo">
+  <img src="assets/images/profile.png" alt="[YOUR NAME]" class="profile-photo">
   <h1>[YOUR NAME]</h1>
   <p><strong>[YOUR JOB TITLE]</strong></p>
   <p><em>[YOUR TAGLINE — e.g., Turning spatial data into insights | GIS | Remote Sensing | Python]</em></p>

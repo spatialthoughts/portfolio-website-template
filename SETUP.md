@@ -129,7 +129,7 @@ Press `Ctrl+C` in the terminal to stop the server.
 ### Replace the profile photo
 
 1. Prepare your photo (square crop works best, at least 300×300 pixels).
-2. Name the file `profile.svg` — or keep your existing filename and update the reference in
+2. Name the file `profile.png` — or keep your existing filename and update the reference in
    `docs/index.md` to match.
 3. Upload it to `docs/assets/images/` by navigating there on GitHub and clicking
    **Add file → Upload files**.

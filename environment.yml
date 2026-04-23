@@ -7,6 +7,4 @@ dependencies:
   - pip
   - pip:
     - mkdocs-material>=9.5
-    # OPTIONAL JUPYTER: Uncomment the line below to use .ipynb files as project pages.
-    # Also uncomment the mkdocs-jupyter plugin in mkdocs.yml.
-    # - mkdocs-jupyter
+    - mkdocs-jupyter

@@ -42,10 +42,6 @@ repo_name: "[YOUR-GITHUB-USERNAME]/[YOUR-REPO-NAME]"
 
 extra_css:
   - assets/css/extra.css
-  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
-
-extra_javascript:
-  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
 markdown_extensions:
   - md_in_html        # Allows Markdown inside HTML blocks (used for project cards)
@@ -60,25 +56,22 @@ markdown_extensions:
 
 plugins:
   - search
+  - mkdocs-jupyter
 
   # OPTIONAL BLOG: Uncomment the line below to enable the Blog section.
   # Also uncomment the "- Blog" entry in the nav section below.
   # See README.md → "Adding a Blog with Comments" for full setup steps.
   # - blog
 
-  # OPTIONAL JUPYTER: Uncomment the line below to use .ipynb files as project pages.
-  # Also uncomment mkdocs-jupyter in requirements.txt and environment.yml, then run:
-  #   pip install mkdocs-jupyter   (or: conda env update -f environment.yml)
-  # See README.md → "Adding Jupyter Notebook Projects" for full setup steps.
-  # - mkdocs-jupyter
-
 nav:
   - Home: index.md
   - Projects:
     - "All Projects": projects/index.md
     - "Land Cover Classification": projects/sample-project.md
+    - "Route Optimization": projects/route_optimization.ipynb
     # HOW TO ADD A NEW PROJECT:
     # 1. Copy docs/projects/sample-project.md to docs/projects/your-project-name.md
+    #    (or drop an .ipynb file into docs/projects/ for a Jupyter notebook project)
     # 2. Edit the new file with your project content
     # 3. Add a line below (same format): - "Your Project Title": projects/your-project-name.md
     # 4. Add a project card on docs/projects/index.md

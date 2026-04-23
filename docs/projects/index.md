@@ -27,16 +27,17 @@ Achieved 89% overall accuracy across 6 land cover classes.
 </div>
 
 <div class="project-card" markdown>
-![Placeholder](../assets/images/placeholder-project.svg)
+![Route Optimization](../assets/images/placeholder-project.svg)
 
-**[YOUR PROJECT 2 TITLE]**
+**[Route Optimization for Service Centers](route_optimization.ipynb)**
 
-[YOUR PROJECT 2 DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+Optimizing visit order for Bangalore government service centers using the OpenRouteService
+API. Geocodes addresses, solves the vehicle routing problem, and visualizes the optimal
+route on an interactive map.
 
-`[TOOL 1]` `[TOOL 2]` `[TOOL 3]`
+`Python` `Folium` `OpenRouteService` `Geopy`
 
-[View Project →](){ .md-button }
+[View Project →](route_optimization.ipynb){ .md-button .md-button--primary }
 </div>
 
 <div class="project-card" markdown>
