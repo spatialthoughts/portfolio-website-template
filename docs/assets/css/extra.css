@@ -14,6 +14,74 @@
   padding: 2rem 0 1rem 0;
 }
 
+/* Custom admonition types for the Skills page — icons use :material-iconname: in titles */
+
+.md-typeset .admonition.gis,
+.md-typeset details.gis { border-color: rgb(  0, 137, 123); }
+.md-typeset .gis > .admonition-title,
+.md-typeset .gis > summary { background-color: rgba(0, 137, 123, .1); }
+
+.md-typeset .admonition.programming,
+.md-typeset details.programming { border-color: rgb(25, 118, 210); }
+.md-typeset .programming > .admonition-title,
+.md-typeset .programming > summary { background-color: rgba(25, 118, 210, .1); }
+
+.md-typeset .admonition.remotesensing,
+.md-typeset details.remotesensing { border-color: rgb(123, 31, 162); }
+.md-typeset .remotesensing > .admonition-title,
+.md-typeset .remotesensing > summary { background-color: rgba(123, 31, 162, .1); }
+
+.md-typeset .admonition.drone,
+.md-typeset details.drone { border-color: rgb(230, 81, 0); }
+.md-typeset .drone > .admonition-title,
+.md-typeset .drone > summary { background-color: rgba(230, 81, 0, .1); }
+
+.md-typeset .admonition.ml,
+.md-typeset details.ml { border-color: rgb(69, 39, 160); }
+.md-typeset .ml > .admonition-title,
+.md-typeset .ml > summary { background-color: rgba(69, 39, 160, .1); }
+
+.md-typeset .admonition.data,
+.md-typeset details.data { border-color: rgb(2, 119, 189); }
+.md-typeset .data > .admonition-title,
+.md-typeset .data > summary { background-color: rgba(2, 119, 189, .1); }
+
+.md-typeset .admonition.webmap,
+.md-typeset details.webmap { border-color: rgb(46, 125, 50); }
+.md-typeset .webmap > .admonition-title,
+.md-typeset .webmap > summary { background-color: rgba(46, 125, 50, .1); }
+
+/* Hide the default ::before icon slot — icons come from :material-iconname: in the title */
+.md-typeset .admonition.gis > .admonition-title::before,
+.md-typeset details.gis > summary::before,
+.md-typeset .admonition.programming > .admonition-title::before,
+.md-typeset details.programming > summary::before,
+.md-typeset .admonition.remotesensing > .admonition-title::before,
+.md-typeset details.remotesensing > summary::before,
+.md-typeset .admonition.drone > .admonition-title::before,
+.md-typeset details.drone > summary::before,
+.md-typeset .admonition.ml > .admonition-title::before,
+.md-typeset details.ml > summary::before,
+.md-typeset .admonition.data > .admonition-title::before,
+.md-typeset details.data > summary::before,
+.md-typeset .admonition.webmap > .admonition-title::before,
+.md-typeset details.webmap > summary::before { display: none; }
+
+.md-typeset .admonition.gis > .admonition-title,
+.md-typeset details.gis > summary,
+.md-typeset .admonition.programming > .admonition-title,
+.md-typeset details.programming > summary,
+.md-typeset .admonition.remotesensing > .admonition-title,
+.md-typeset details.remotesensing > summary,
+.md-typeset .admonition.drone > .admonition-title,
+.md-typeset details.drone > summary,
+.md-typeset .admonition.ml > .admonition-title,
+.md-typeset details.ml > summary,
+.md-typeset .admonition.data > .admonition-title,
+.md-typeset details.data > summary,
+.md-typeset .admonition.webmap > .admonition-title,
+.md-typeset details.webmap > summary { padding-left: 0.75rem; }
+
 /* Project cards on the Projects gallery page */
 .project-card {
   border: 1px solid var(--md-default-fg-color--lightest);
