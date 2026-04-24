@@ -37,7 +37,6 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 
 [GitHub](https://github.com/[YOUR-GITHUB-USERNAME]){ .md-button }
 [LinkedIn](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]){ .md-button }
-[Email](mailto:[YOUR-EMAIL-ADDRESS]){ .md-button }
 
 ---
 
