@@ -34,7 +34,7 @@ and what you found or built.]
 <div class="project-card" markdown>
 ![](../assets/images/placeholder-notebook.png)
 
-**[YOUR NOTEBOOK TITLE](sample-notebook.ipynb)**
+**[Sample Notebook](sample-notebook.ipynb)**
 
 [YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
 and what you found or built.]
