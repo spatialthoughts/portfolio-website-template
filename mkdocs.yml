@@ -36,10 +36,6 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-# Update with your GitHub repository details:
-repo_url: https://github.com/[YOUR-GITHUB-USERNAME]/[YOUR-REPO-NAME]
-repo_name: "[YOUR-GITHUB-USERNAME]/[YOUR-REPO-NAME]"
-
 extra_css:
   - assets/css/extra.css
 
