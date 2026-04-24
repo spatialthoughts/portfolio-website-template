@@ -4,15 +4,15 @@ A ready-to-use portfolio website template for geospatial professionals — GIS a
 sensing specialists, spatial data scientists, and GeoAI practitioners. Built with
 [MkDocs](https://www.mkdocs.org/) and the [Material theme](https://squidfunk.github.io/mkdocs-material/).
 
-**Live demo:** [YOUR DEMO URL HERE]
+**[SEE LIVE DEMO](https://spatialthoughts.github.io/portfolio-website-template/)**
 
 ---
 
 ## What's Included
 
-- **Home** — Profile photo, bio, social links, highlights, and CV download button
+- **Home** — Profile photo, bio, social links, highlights, and CV download button.
 - **Projects** — Image card gallery with individual project pages; example projects as both
-  a Markdown page and a Jupyter notebook
+  a Markdown page and a Jupyter notebook.
 - **Skills** — Collapsible skill categories (GIS, programming, remote sensing, ML/GeoAI, etc.)
 - **Experience** — Work history, education, certifications, publications
 - **Contact** — Links and CV download
