@@ -10,21 +10,18 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 - [ ] Add a nav entry in mkdocs.yml
 -->
 
-# Land Cover Classification of Bangalore
+# [YOUR PROJECT TITLE]
 
-![Project overview map showing classified land cover](../assets/images/sample-project.svg)
+![Project overview image](../assets/images/placeholder-project.svg)
 
 ## Overview
 
-This project maps urban land cover in the Bangalore metropolitan region using multispectral
-Landsat-8 imagery and a Random Forest classifier trained in Python. Six land cover classes
-were mapped: urban/built-up, vegetation, water bodies, bare soil, cropland, and peri-urban.
-The classification achieved an overall accuracy of 89% validated against ground truth points
-collected in the field.
+[One or two sentences describing what you did, what data you used, and why it matters.]
 
-**Duration:** June – August 2024  
-**Role:** Solo project  
-**Status:** Completed
+**Study Area:** [Region or extent]  
+**Duration:** [Start month/year – End month/year]  
+**Role:** [Solo project / Team lead / Contributor]  
+**Status:** [Completed / In progress]
 
 ---
 
@@ -32,40 +29,35 @@ collected in the field.
 
 **Data Sources**
 
-- Landsat-8 OLI imagery (30 m resolution) from USGS Earth Explorer
-- Ground truth points collected via field survey (n = 250)
-- OpenStreetMap for reference basemap
+- [Dataset name and source]
+- [Dataset name and source]
 
 **Processing Steps**
 
-1. Cloud masking and atmospheric correction using LEDAPS in Google Earth Engine
-2. Computation of spectral indices: NDVI, NDWI, NDBI
-3. Random Forest classifier trained with 70% of ground truth points
-4. Accuracy assessment using held-out 30% (confusion matrix, kappa coefficient)
-5. Final map export and visualization in QGIS
+1. [Step one]
+2. [Step two]
+3. [Step three]
+4. [Step four]
 
 **Tools Used**
 
 | Tool | Purpose |
 |------|---------|
-| Google Earth Engine | Image acquisition and pre-processing |
-| Python + scikit-learn | Random Forest classifier |
-| QGIS | Visualization and cartography |
-| Matplotlib | Charts and accuracy plots |
-| Pandas | Tabular data management |
+| [Tool 1] | [What you used it for] |
+| [Tool 2] | [What you used it for] |
+| [Tool 3] | [What you used it for] |
 
 ---
 
 ## Key Findings
 
-- Overall accuracy: **89.3%** (Kappa: 0.87)
-- Urban/built-up area has expanded by **23%** compared to 2014
-- Vegetation cover declined by **18%** in the same period, concentrated in the northern corridor
-- Water bodies showed high classification accuracy (F1 = 0.94) due to strong NDWI signal
+- [Finding one — include a number or metric if possible]
+- [Finding two]
+- [Finding three]
 
 ---
 
 ## Links
 
 [View Code on GitHub](https://github.com/[YOUR-GITHUB-USERNAME]/[YOUR-REPO-NAME]){ .md-button }
-[Data Source (USGS)](https://earthexplorer.usgs.gov){ .md-button }
+[View Data Source](https://example.com){ .md-button }
