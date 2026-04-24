@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+  - toc
+---
 <!--
 CHECKLIST FOR THIS PAGE:
 - [ ] Replace [YOUR NAME] with your full name (3 places)
@@ -9,6 +14,8 @@ CHECKLIST FOR THIS PAGE:
 - [ ] Update the three Highlights numbers (projects, years, skills)
 - [ ] Add your CV PDF to docs/assets/ and update the filename in the Download CV button
 -->
+
+
 
 <div class="hero">
   <img src="assets/images/profile.png" alt="[YOUR NAME]" class="profile-photo">
@@ -43,12 +50,6 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 ## Highlights
 
 <div class="grid cards" markdown>
-
--   :material-map:{ .lg .middle } **[X] Projects**
-
-    ---
-
-    Completed geospatial projects spanning land use mapping, remote sensing, and spatial analysis.
 
 -   :material-clock-outline:{ .lg .middle } **[X] Years Experience**
 

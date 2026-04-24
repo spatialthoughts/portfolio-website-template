@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+  - toc
+---
 <!--
 CHECKLIST FOR THIS PAGE:
 - [ ] Replace [YOUR-EMAIL-ADDRESS] with your actual email
@@ -20,7 +25,6 @@ Feel free to reach out through any of the channels below.
 | :material-email: **Email** | [your-email@example.com](mailto:[YOUR-EMAIL-ADDRESS]) |
 | :fontawesome-brands-github: **GitHub** | [github.com/[YOUR-GITHUB-USERNAME]](https://github.com/[YOUR-GITHUB-USERNAME]) |
 | :fontawesome-brands-linkedin: **LinkedIn** | [linkedin.com/in/[YOUR-LINKEDIN-USERNAME]](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]) |
-| :fontawesome-brands-x-twitter: **Twitter / X** | [@[YOUR-TWITTER-HANDLE]](https://twitter.com/[YOUR-TWITTER-HANDLE]) |
 | :material-school: **ResearchGate** | [researchgate.net/profile/[YOUR-PROFILE]](https://www.researchgate.net/profile/[YOUR-PROFILE]) |
 
 ---
