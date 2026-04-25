@@ -10,11 +10,11 @@ sensing specialists, spatial data scientists, and GeoAI practitioners. Built wit
 
 ## What's Included
 
-- **Home** — Profile photo, bio, social links, highlights, and CV download button.
+- **Home** — Profile photo, bio, social links, skill cards, and CV download button.
 - **Projects** — Image card gallery with individual project pages; example projects as both
   a Markdown page and a Jupyter notebook.
-- **Skills** — Collapsible skill categories (GIS, programming, remote sensing, ML/GeoAI, etc.)
-- **Experience** — Work history, education, certifications, publications
+- **Publications** — Journal articles, conference papers, theses, and reports
+- **Experience** — Work history, education, and certifications
 - **Contact** — Links and CV download
 - Auto-deploy to GitHub Pages on every push to `main`
 - Light/dark mode toggle

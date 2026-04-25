@@ -79,7 +79,6 @@ nav:
     # 4. Add a project card on docs/projects/index.md
   - Publications: publications.md
   - Experience: experience.md
-  - Skills: skills.md
   - Contact: contact.md
 
   # OPTIONAL BLOG: Uncomment after enabling the blog plugin above

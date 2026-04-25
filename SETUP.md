@@ -51,10 +51,10 @@ no software installation required.
 | File | What to change |
 |------|---------------|
 | `mkdocs.yml` | Site name, your name, GitHub repo URL, colors |
-| `docs/index.md` | Profile photo, bio, social links, highlights |
+| `docs/index.md` | Profile photo, bio, social links, skill cards |
 | `docs/projects/index.md` | Project cards (titles, descriptions, images) |
 | `docs/projects/sample-project.md` | The example project (or copy it for your own) |
-| `docs/skills.md` | Your actual skills |
+| `docs/publications.md` | Your journal articles, conference papers, reports |
 | `docs/experience.md` | Your work history, education, certifications |
 | `docs/contact.md` | Your email, GitHub, LinkedIn links |
 
