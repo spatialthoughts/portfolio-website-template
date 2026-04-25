@@ -204,7 +204,51 @@ Available colors: `red`, `pink`, `purple`, `deep purple`, `indigo`, `blue`, `lig
 
 ---
 
-## Part 8 — Deploying Your Changes
+## Part 8 — Changing the Logo and Favicon
+
+The site logo (shown in the top-left header) and browser tab favicon are both controlled by a
+single setting in `mkdocs.yml`:
+
+```yaml
+theme:
+  icon:
+    logo: material/earth   # <-- change this
+```
+
+When you set `icon.logo` to a Material Design icon name, the theme automatically uses the same
+icon for both the header logo and the favicon.
+
+**To pick a different icon:**
+
+1. Browse the full icon library at
+   [squidfunk.github.io/mkdocs-material/reference/icons-emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/).
+2. Filter by "material" to see Material Design icons. Good options for a geo/data portfolio
+   include `material/map`, `material/globe-model`, `material/satellite-variant`,
+   `material/chart-scatter-plot`, `material/layers`.
+3. Click an icon to copy its name (e.g., `material/map`), then paste it as the value in
+   `mkdocs.yml`.
+
+**To use a custom image instead of an icon:**
+
+Replace the `icon.logo` block with a `logo` path pointing to your image:
+
+```yaml
+theme:
+  logo: assets/images/my-logo.png
+```
+
+Upload your image to `docs/assets/images/` first, then reference it relative to the `docs/`
+folder as shown above. For the favicon, add a separate `favicon` line:
+
+```yaml
+theme:
+  logo: assets/images/my-logo.png
+  favicon: assets/images/my-favicon.png
+```
+
+---
+
+## Part 9 — Deploying Your Changes
 
 Every time you push a change to the `main` branch, GitHub Actions automatically builds
 and deploys your site. You do not need to do anything extra.
