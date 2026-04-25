@@ -69,9 +69,8 @@ nav:
   - Home: index.md
   - Projects:
     - "All Projects": projects/index.md
-    - "Mapping Brick Kilns": projects/brick-kiln.md
-    - "Route Optimization": projects/route_optimization.ipynb
     - "Sample Project": projects/sample-project.md
+    - "Jupyter Notebook Project": projects/sample-notebook.ipynb
     # HOW TO ADD A NEW PROJECT:
     # 1. Copy docs/projects/sample-project.md to docs/projects/your-project-name.md
     #    (or drop an .ipynb file into docs/projects/ for a Jupyter notebook project)

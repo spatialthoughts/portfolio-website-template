@@ -114,7 +114,7 @@ conda activate portfolio
 ### 4e — Start the Local Preview Server
 
 ```bash
-mkdocs serve
+mkdocs serve --livereload
 ```
 
 Open your browser and go to [http://127.0.0.1:8000](http://127.0.0.1:8000).

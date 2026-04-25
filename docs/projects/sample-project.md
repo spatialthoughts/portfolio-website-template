@@ -12,7 +12,7 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 
 # [YOUR PROJECT TITLE]
 
-![Project overview image](../assets/images/placeholder-project.svg)
+![Project overview image](../assets/images/placeholder-project.png)
 
 ## Overview
 
@@ -48,7 +48,6 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 | [Tool 3] | [What you used it for] |
 
 ---
-
 ## Key Findings
 
 - [Finding one — include a number or metric if possible]
