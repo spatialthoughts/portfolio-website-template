@@ -4,34 +4,28 @@ A ready-to-use portfolio website template for geospatial professionals — GIS a
 sensing specialists, spatial data scientists, and GeoAI practitioners. Built with
 [MkDocs](https://www.mkdocs.org/) and the [Material theme](https://squidfunk.github.io/mkdocs-material/).
 
-**[SEE LIVE DEMO](https://spatialthoughts.github.io/portfolio-website-template/)**
+Build a fully responsive personalized portfolio website - no Git or coding expertise required.
+
+**[TEMPLATE PREVIEW](https://spatialthoughts.github.io/portfolio-website-template/)**
+
+**[LIVE PORTFOLIO](https://spatialthoughts.github.io/)**
+
+This template is part of our [Building Your Geospatial Portfolio Website](https://courses.spatialthoughts.com/geospatial-portfolio-workshop.html) workshop. Visit the workshop page for step-by-step instructions.
 
 ---
 
 ## What's Included
 
-- **Home** — Profile photo, bio, social links, skill cards, and CV download button.
-- **Projects** — Image card gallery with individual project pages; example projects as both
+- Professional theme with a mobile-responsive layout
+- Homepage with profile photo, skill cards, about section and a CV download button.
+- Pre-configured pages - publications, experience and contact. With flexibility to add/remote pages as needed.
+- Project gallery with individual project pages with example projects as both
   a Markdown page and a Jupyter notebook.
-- **Publications** — Journal articles, conference papers, theses, and reports
-- **Experience** — Work history, education, and certifications
-- **Contact** — Links and CV download
-- Auto-deploy to GitHub Pages on every push to `main`
+- Pre-configured GitHub Action to auto-deploy site GitHub Pages on every push to `main`
 - Light/dark mode toggle
-- Mobile-responsive layout
+- Optional support for blog and comments.
 
----
-
-## Quick Start
-
-See **[SETUP.md](SETUP.md)** for the full step-by-step guide, including:
-
-- Forking this template on GitHub
-- Enabling GitHub Pages
-- Editing content in the GitHub web editor (no local install needed)
-- Setting up a local development environment with conda
-
----
+See **[SETUP.md](SETUP.md)** for the full step-by-step guide
 
 ## Optional Components
 
