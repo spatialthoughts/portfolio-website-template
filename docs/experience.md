@@ -10,7 +10,6 @@ CHECKLIST FOR THIS PAGE:
 - [ ] Add or remove job entries as needed (copy the format of an existing entry)
 - [ ] Add or remove education entries
 - [ ] Add or remove certifications
-- [ ] Add publications/presentations, or delete that section if not applicable
 -->
 
 # Experience & Education
@@ -55,17 +54,5 @@ CHECKLIST FOR THIS PAGE:
 - [Certification Name] — [Issuing Organization], [Year]
 - [Certification Name] — [Issuing Organization], [Year]
 
-*Examples: ESRI Technical Certification, Google Professional Data Engineer,
-AWS Certified Cloud Practitioner, remote sensing courses on Coursera / edX*
+*Examples: QGIS Certification, PMP Certification, AWS Certified Cloud Practitioner*
 
----
-
-## Publications & Presentations
-
-1. [YOUR NAME] et al. (Year). "[Paper or presentation title]." *Journal or Conference Name*.
-   [Optional: add a DOI or URL link]
-
-2. [YOUR NAME] (Year). "[Presentation title]." *Conference Name*, City, Country.
-
-*Delete this section if not applicable. It can also include posters, workshop talks,
-or guest lectures.*
