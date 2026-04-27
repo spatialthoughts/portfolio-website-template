@@ -65,6 +65,7 @@
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 8px;
   padding: 1rem;
+  background-color: #f0f7ff;
   transition: box-shadow 0.2s;
 }
 
