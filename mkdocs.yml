@@ -11,7 +11,6 @@ site_author: "[YOUR NAME]"
 
 theme:
   name: material
-  custom_dir: overrides          # Do not remove — required for optional Giscus comments
   # Icon used as both the site logo (header) and browser favicon.
   # Browse icons at https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   # and replace "material/earth" with any "material/..." icon name you prefer.
@@ -61,11 +60,6 @@ plugins:
   - meta
   - mkdocs-jupyter
 
-  # OPTIONAL BLOG: Uncomment the line below to enable the Blog section.
-  # Also uncomment the "- Blog" entry in the nav section below.
-  # See README.md → "Adding a Blog with Comments" for full setup steps.
-  # - blog
-
 nav:
   - Home: index.md
   - Projects:
@@ -81,6 +75,3 @@ nav:
   - Publications: publications.md
   - Experience: experience.md
   - Contact: contact.md
-
-  # OPTIONAL BLOG: Uncomment after enabling the blog plugin above
-  # - Blog: blog/index.md
