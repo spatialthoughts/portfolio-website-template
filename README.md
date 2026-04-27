@@ -18,7 +18,7 @@ This template is part of our [Building Your Geospatial Portfolio Website](https:
 
 - Professional theme with a mobile-responsive layout
 - Homepage with profile photo, skill cards, about section and a CV download button.
-- Pre-configured pages - publications, experience and contact. With flexibility to add/remote pages as needed.
+- Pre-configured pages - publications, experience and contact. With the flexibility to add/remove pages as needed.
 - Project gallery with individual project pages with example projects as both
   a Markdown page and a Jupyter notebook.
 - Pre-configured GitHub Action to auto-deploy site GitHub Pages on every push to `main`
