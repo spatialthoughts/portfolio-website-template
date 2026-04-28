@@ -21,5 +21,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Preserve CNAME if present
+        run: |
+          if [ -f CNAME ]; then
+            cp CNAME docs/CNAME
+          fi
+
       - name: Deploy
         run: mkdocs gh-deploy --force
