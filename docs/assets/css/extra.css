@@ -87,6 +87,11 @@
   margin-top: 0;
 }
 
+/* Skills grid cards on the Home page */
+.md-typeset .grid.cards > ul > li {
+  background-color: #f0f7ff;
+}
+
 /* Project cards on the Projects gallery page */
 .project-card {
   border: 1px solid var(--md-default-fg-color--lightest);
