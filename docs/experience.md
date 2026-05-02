@@ -10,6 +10,10 @@ CHECKLIST FOR THIS PAGE:
 
 ## Work Experience
 
+<div class="timeline" markdown>
+
+<div class="timeline-entry" markdown>
+
 ### [YOUR JOB TITLE] — [YOUR COMPANY / ORGANIZATION]
 *[Month Year] – [Month Year or Present] | [City, Country]*
 
@@ -17,7 +21,9 @@ CHECKLIST FOR THIS PAGE:
 - [Describe another key task, project, or result]
 - [Describe a tool, method, or skill you applied regularly]
 
----
+</div>
+
+<div class="timeline-entry" markdown>
 
 ### [YOUR PREVIOUS JOB TITLE] — [YOUR PREVIOUS COMPANY]
 *[Month Year] – [Month Year] | [City, Country]*
@@ -25,6 +31,10 @@ CHECKLIST FOR THIS PAGE:
 - [Describe your main responsibility or achievement in one sentence]
 - [Describe another key task, project, or result]
 - [Describe a tool, method, or skill you applied regularly]
+
+</div>
+
+</div>
 
 ---
 
@@ -49,4 +59,3 @@ CHECKLIST FOR THIS PAGE:
 - [Certification Name] — [Issuing Organization], [Year]
 
 *Examples: QGIS Certification, PMP Certification, AWS Certified Cloud Practitioner*
-
