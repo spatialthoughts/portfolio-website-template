@@ -55,6 +55,18 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+copyright: "Copyright &copy; [YOUR NAME]"
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/[YOUR-GITHUB-USERNAME]
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]
+    - icon: material/email
+      link: mailto:[YOUR-EMAIL-ADDRESS]
+
+
 plugins:
   - search
   - meta
