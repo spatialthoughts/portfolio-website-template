@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 <!--
 CHECKLIST FOR THIS PAGE:
 - [ ] Replace [YOUR NAME] with your full name (3 places)

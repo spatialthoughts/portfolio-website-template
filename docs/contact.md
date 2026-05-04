@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 <!--
 CHECKLIST FOR THIS PAGE:
 - [ ] Replace [YOUR-EMAIL-ADDRESS] with your actual email

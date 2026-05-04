@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 <!--
 CHECKLIST FOR THIS PAGE:
 - [ ] Replace the two placeholder cards (marked [YOUR PROJECT ...]) with your real projects

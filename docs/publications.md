@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 <!--
 CHECKLIST FOR THIS PAGE:
 - [ ] Replace each [YOUR ...] placeholder with your actual information
